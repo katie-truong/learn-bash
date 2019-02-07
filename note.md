@@ -33,3 +33,16 @@ sort -n lengths.txt
 ```
 bash learn.sh
 ```
+
+- Piping
+```
+wc *.pdb | sort -n | head -n 1
+```
+
+or 
+
+```
+wc *.pdb |
+sort -n |
+head -n 1
+```
