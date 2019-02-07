@@ -10,7 +10,7 @@ wget "http://domain.com/directory/4?action=AttachFile&do=view&target=file.tgz"
 wc -l *.pdb*
 ```
 
-- save out to a file: `>`
+- save out to a file: `>` (redirect)
 ```
 wc -l *.pdb > lengths.txt
 ```
@@ -18,4 +18,18 @@ wc -l *.pdb > lengths.txt
 - `cat`: read the content inside a file
 ```
 cat lengths.txt
+```
+
+- `sort`: sort the output (alphabetically sort)
+```
+sort lengths.txt
+```
+Add `-n` for numeric sort:
+```
+sort -n lengths.txt
+```
+
+- `bash`: run an `.sh` script
+```
+bash learn.sh
 ```
