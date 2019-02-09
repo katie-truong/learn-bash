@@ -46,3 +46,7 @@ wc *.pdb |
 sort -n |
 head -n 1
 ```
+
+- [Nohup](https://linux.die.net/man/1/nohup):
+Keep processes running without hangup
+
